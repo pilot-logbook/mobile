@@ -1,0 +1,79 @@
+{
+  "name": "pilog",
+  "description": "Track your flight log time",
+  "author": {
+    "name": "Pilog",
+    "email": "nitish.sachar@hotmail.com"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "compile": "yarn lint && tsc",
+    "clean": "rm -rf node_modules && yarn install && rm -rf ios/build && rm -rf /tmp/metro-bundler-cache-* && rm -rf /tmp/haste-map-react-native-packager-*  cxsA&& rm -rf $TMPDIR/react-* && rm -rf ios/build",
+    "android:build": "react-native run-android",
+    "ios:build": "react-native run-ios",
+    "ios:clean": "rm -rf ~/Library/Developer/Xcode/DerivedData",
+    "test": "jest --verbose",
+    "test:update": "jest --verbose --updateSnapshot",
+    "test:watch": "jest --verbose --watch",
+    "test:e2e": "detox test -c ios.sim.debug --reuse",
+    "test:e2e:build": "detox build",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.58.5",
+    "react-navigation": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/react": "^16.8.5",
+    "@types/react-native": "^0.57.38",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/react-navigation": "^3.0.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "24.1.0",
+    "detox": "^10.0.10",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-native-testing-library": "^1.5.0",
+    "react-test-renderer": "16.8.3",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0"
+  },
+  "detox": {
+    "test-runner": "jest",
+    "runner-config": "tests/e2e/config.json",
+    "configurations": {
+      "ios.sim.release": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/SpotCheck.app",
+        "build": "export RCT_NO_LAUNCH_PACKAGER=true && xcodebuild -workspace ios/spotcheck.xcworkspace -UseNewBuildSystem=NO -scheme SpotCheck -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -quiet",
+        "type": "ios.simulator",
+        "name": "iPhone X"
+      },
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/SpotCheck.app",
+        "build": "xcodebuild -workspace ios/spotcheck.xcworkspace -scheme SpotCheck -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone X"
+      },
+      "android.emu.debug": {
+        "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+        "build": "pushd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && popd",
+        "type": "android.emulator",
+        "name": "Pixel_2_API_28"
+      },
+      "android.emu.release": {
+        "binaryPath": "android/app/build/outputs/apk/release/app-release.apk",
+        "build": "pushd android && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release && popd",
+        "type": "android.emulator",
+        "name": "Pixel_2_API_28"
+      }
+    }
+  }
+}
