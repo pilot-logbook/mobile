@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1186025383D9A37D07E9C880702FF6D5 /* Pods-pilogTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA1B83C63CFB78B95F652D64592BE87 /* Pods-pilogTests-dummy.m */; };
+		1BE17CF85ED60B9D75A5155E06634B48 /* Pods-pilog-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC37C5C688A2C56EC2DEC9183B03B2 /* Pods-pilog-tvOS-dummy.m */; };
+		2971DE40EF6337C1CB7B3A1DBE475164 /* Pods-pilog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5233869E373D28D7C8283EC7939DB57 /* Pods-pilog-dummy.m */; };
+		DFF77BDA47D097326B14B74D2CC53D44 /* Pods-pilog-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994A767EAE779ED1EB4C9D545E43E264 /* Pods-pilog-tvOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8FA132775E10054C0C506673576ADC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF9AAB2C7890E6AAF9AC51F2C972995;
+			remoteInfo = "Pods-pilog-tvOS";
+		};
+		F45EA4E84F31055EBF5A718B18C8ADC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A9D03F50EBA6E401632AE25E8962D9;
+			remoteInfo = "Pods-pilog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E64E739E564EAD6E1E15B9368FCC9A /* libPods-pilog-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pilog-tvOSTests.a"; path = "libPods-pilog-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FAA79F2E0951EA09DFB39F9DE8CFFD /* Pods-pilog-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-frameworks.sh"; sourceTree = "<group>"; };
+		0665842BBDC1B6F9C59CC2836831C2D1 /* Pods-pilogTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pilogTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DA1B83C63CFB78B95F652D64592BE87 /* Pods-pilogTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pilogTests-dummy.m"; sourceTree = "<group>"; };
+		15DE74781A035C63406D8363FACB1518 /* libPods-pilog-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pilog-tvOS.a"; path = "libPods-pilog-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		2903F1F1716B09A8F2A96F0207C80D0B /* Pods-pilog-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B1D70CDE01854721D582BDBBD6A8652 /* Pods-pilogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilogTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		3E2691752221A88A3A6585A7EBFA799E /* libPods-pilogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pilogTests.a"; path = "libPods-pilogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBE2A518CF62D4C9FF0DC4E367F126E /* Pods-pilog-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CCE49388140701BDDAC253FC74510EC /* Pods-pilog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pilog-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EF0C2FFF870612B4E9D8DF7CF652115 /* Pods-pilogTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilogTests-resources.sh"; sourceTree = "<group>"; };
+		638BECB41DB14655259CA3359C5D0B82 /* Pods-pilogTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pilogTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66108E0B50AD82F4931C2054869F9981 /* Pods-pilog-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-tvOS-resources.sh"; sourceTree = "<group>"; };
+		697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		6C725E9B60DDA4ED91DF62F39F4ECB78 /* Pods-pilog-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		71BC37C5C688A2C56EC2DEC9183B03B2 /* Pods-pilog-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pilog-tvOS-dummy.m"; sourceTree = "<group>"; };
+		93982E155FAC7F45354F397297DE8B50 /* Pods-pilog-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		994A767EAE779ED1EB4C9D545E43E264 /* Pods-pilog-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pilog-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		9BCFFA41EA7647D11CD701647060872B /* Pods-pilog-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		9C3F1C5C1F8C27993A34023C7F42C357 /* Pods-pilog-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		A853B8D08850F57862AA046400720FB7 /* Pods-pilog-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A999F2435D401A5289E50FF2D5175703 /* Pods-pilog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pilog-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD16C5064A90C8027CCAE2D6750E7C02 /* Pods-pilog-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pilog-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5233869E373D28D7C8283EC7939DB57 /* Pods-pilog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pilog-dummy.m"; sourceTree = "<group>"; };
+		C82D9570A2C92494A9C9053A58287F66 /* Pods-pilog-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilog-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		CAB8626D37E1A85C521457B107613075 /* libPods-pilog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pilog.a"; path = "libPods-pilog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05E85A03A10B921CFE1438768ABC896 /* Pods-pilog-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pilog-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5450D2B1F59F91A1E6E46C2E5DAA22D /* Pods-pilog-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pilog-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D58345F1CBF2C31FD06EB07637D1FBD0 /* Pods-pilogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A53501A02337E25E236A6B09C8F282 /* Pods-pilogTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pilogTests-frameworks.sh"; sourceTree = "<group>"; };
+		DB6A39DA3E592C4AD935A4184540C58E /* Pods-pilog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog.debug.xcconfig"; sourceTree = "<group>"; };
+		DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		E9BF88E8A913988D2CEF039A17919239 /* Pods-pilog-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pilog-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE999A468DCD95B07DF1B2F78B8F9F63 /* Pods-pilog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pilog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226408BEC925D7F454DAF5246D243914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B65CC8483EA97CCBCCCF0341CE3A171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9286A70348756EED07ADC8F17AD923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9161162066E6E3D43B667FC3FC08C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0416FA3744ECAB6C76E95960896084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				4789B2888C9F3A64D9BB98A64504484B /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		24356ACB0E28F46990C720CC5E92A381 /* Pods-pilog */ = {
+			isa = PBXGroup;
+			children = (
+				A999F2435D401A5289E50FF2D5175703 /* Pods-pilog-acknowledgements.markdown */,
+				5CCE49388140701BDDAC253FC74510EC /* Pods-pilog-acknowledgements.plist */,
+				C5233869E373D28D7C8283EC7939DB57 /* Pods-pilog-dummy.m */,
+				00FAA79F2E0951EA09DFB39F9DE8CFFD /* Pods-pilog-frameworks.sh */,
+				93982E155FAC7F45354F397297DE8B50 /* Pods-pilog-resources.sh */,
+				DB6A39DA3E592C4AD935A4184540C58E /* Pods-pilog.debug.xcconfig */,
+				FE999A468DCD95B07DF1B2F78B8F9F63 /* Pods-pilog.release.xcconfig */,
+			);
+			name = "Pods-pilog";
+			path = "Target Support Files/Pods-pilog";
+			sourceTree = "<group>";
+		};
+		260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		2D20FC01AE47C04E62202F456C8DC21D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0C0416FA3744ECAB6C76E95960896084 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		31FC2B139ACEED57F8E8D4679BC35A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8626D37E1A85C521457B107613075 /* libPods-pilog.a */,
+				15DE74781A035C63406D8363FACB1518 /* libPods-pilog-tvOS.a */,
+				00E64E739E564EAD6E1E15B9368FCC9A /* libPods-pilog-tvOSTests.a */,
+				3E2691752221A88A3A6585A7EBFA799E /* libPods-pilogTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4789B2888C9F3A64D9BB98A64504484B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C5A899A6DE07206B50B1927A4C2588C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24356ACB0E28F46990C720CC5E92A381 /* Pods-pilog */,
+				7CDBC6A8B208C60BC6948B1E5997FD58 /* Pods-pilog-tvOS */,
+				867E94AF3089AE6CCF6B606171E9C726 /* Pods-pilog-tvOSTests */,
+				91C2097BE9498F64393CA2364D8FA2B5 /* Pods-pilogTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7CDBC6A8B208C60BC6948B1E5997FD58 /* Pods-pilog-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9BF88E8A913988D2CEF039A17919239 /* Pods-pilog-tvOS-acknowledgements.markdown */,
+				BD16C5064A90C8027CCAE2D6750E7C02 /* Pods-pilog-tvOS-acknowledgements.plist */,
+				71BC37C5C688A2C56EC2DEC9183B03B2 /* Pods-pilog-tvOS-dummy.m */,
+				9C3F1C5C1F8C27993A34023C7F42C357 /* Pods-pilog-tvOS-frameworks.sh */,
+				66108E0B50AD82F4931C2054869F9981 /* Pods-pilog-tvOS-resources.sh */,
+				A853B8D08850F57862AA046400720FB7 /* Pods-pilog-tvOS.debug.xcconfig */,
+				6C725E9B60DDA4ED91DF62F39F4ECB78 /* Pods-pilog-tvOS.release.xcconfig */,
+			);
+			name = "Pods-pilog-tvOS";
+			path = "Target Support Files/Pods-pilog-tvOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */,
+				31FC2B139ACEED57F8E8D4679BC35A69 /* Products */,
+				5C5A899A6DE07206B50B1927A4C2588C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		867E94AF3089AE6CCF6B606171E9C726 /* Pods-pilog-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05E85A03A10B921CFE1438768ABC896 /* Pods-pilog-tvOSTests-acknowledgements.markdown */,
+				D5450D2B1F59F91A1E6E46C2E5DAA22D /* Pods-pilog-tvOSTests-acknowledgements.plist */,
+				994A767EAE779ED1EB4C9D545E43E264 /* Pods-pilog-tvOSTests-dummy.m */,
+				9BCFFA41EA7647D11CD701647060872B /* Pods-pilog-tvOSTests-frameworks.sh */,
+				C82D9570A2C92494A9C9053A58287F66 /* Pods-pilog-tvOSTests-resources.sh */,
+				5CBE2A518CF62D4C9FF0DC4E367F126E /* Pods-pilog-tvOSTests.debug.xcconfig */,
+				2903F1F1716B09A8F2A96F0207C80D0B /* Pods-pilog-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-pilog-tvOSTests";
+			path = "Target Support Files/Pods-pilog-tvOSTests";
+			sourceTree = "<group>";
+		};
+		8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C2097BE9498F64393CA2364D8FA2B5 /* Pods-pilogTests */ = {
+			isa = PBXGroup;
+			children = (
+				0665842BBDC1B6F9C59CC2836831C2D1 /* Pods-pilogTests-acknowledgements.markdown */,
+				638BECB41DB14655259CA3359C5D0B82 /* Pods-pilogTests-acknowledgements.plist */,
+				0DA1B83C63CFB78B95F652D64592BE87 /* Pods-pilogTests-dummy.m */,
+				D7A53501A02337E25E236A6B09C8F282 /* Pods-pilogTests-frameworks.sh */,
+				5EF0C2FFF870612B4E9D8DF7CF652115 /* Pods-pilogTests-resources.sh */,
+				D58345F1CBF2C31FD06EB07637D1FBD0 /* Pods-pilogTests.debug.xcconfig */,
+				2B1D70CDE01854721D582BDBBD6A8652 /* Pods-pilogTests.release.xcconfig */,
+			);
+			name = "Pods-pilogTests";
+			path = "Target Support Files/Pods-pilogTests";
+			sourceTree = "<group>";
+		};
+		B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */,
+				FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */,
+				2D20FC01AE47C04E62202F456C8DC21D /* Core */,
+				2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105FCFAA0F713721A9A8D3CF6816835E /* Pods-pilogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83D40DD75447C0F3D1D1AB0CAF6F6F6 /* Build configuration list for PBXNativeTarget "Pods-pilogTests" */;
+			buildPhases = (
+				AAA0FB4ADCD15483C65EDCB50C4A67F8 /* Sources */,
+				5B65CC8483EA97CCBCCCF0341CE3A171 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDE37F659454CF0A5B7EE5FEDF90219 /* PBXTargetDependency */,
+			);
+			name = "Pods-pilogTests";
+			productName = "Pods-pilogTests";
+			productReference = 3E2691752221A88A3A6585A7EBFA799E /* libPods-pilogTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CF9AAB2C7890E6AAF9AC51F2C972995 /* Pods-pilog-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22684A7DF38B985ADF36418CD2278076 /* Build configuration list for PBXNativeTarget "Pods-pilog-tvOS" */;
+			buildPhases = (
+				4529C1E65F8E4D71519BEDDA3B67C4B5 /* Sources */,
+				FF9161162066E6E3D43B667FC3FC08C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pilog-tvOS";
+			productName = "Pods-pilog-tvOS";
+			productReference = 15DE74781A035C63406D8363FACB1518 /* libPods-pilog-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEA9346990908F57D5731908384B09CB /* Pods-pilog-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D0B59277D725FA65FE574F2D886877 /* Build configuration list for PBXNativeTarget "Pods-pilog-tvOSTests" */;
+			buildPhases = (
+				36819E63950236F2AB0370425F609D19 /* Sources */,
+				226408BEC925D7F454DAF5246D243914 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D1938EE57C69C57C3F86FD393965A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-pilog-tvOSTests";
+			productName = "Pods-pilog-tvOSTests";
+			productReference = 00E64E739E564EAD6E1E15B9368FCC9A /* libPods-pilog-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8A9D03F50EBA6E401632AE25E8962D9 /* Pods-pilog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A583C8633FD3D2FF369B2E36D4E2CA8 /* Build configuration list for PBXNativeTarget "Pods-pilog" */;
+			buildPhases = (
+				CEB4524DF0DADD51D2807D14C1EBAEED /* Sources */,
+				6D9286A70348756EED07ADC8F17AD923 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pilog";
+			productName = "Pods-pilog";
+			productReference = CAB8626D37E1A85C521457B107613075 /* libPods-pilog.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31FC2B139ACEED57F8E8D4679BC35A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A9D03F50EBA6E401632AE25E8962D9 /* Pods-pilog */,
+				2CF9AAB2C7890E6AAF9AC51F2C972995 /* Pods-pilog-tvOS */,
+				AEA9346990908F57D5731908384B09CB /* Pods-pilog-tvOSTests */,
+				105FCFAA0F713721A9A8D3CF6816835E /* Pods-pilogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36819E63950236F2AB0370425F609D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF77BDA47D097326B14B74D2CC53D44 /* Pods-pilog-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4529C1E65F8E4D71519BEDDA3B67C4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE17CF85ED60B9D75A5155E06634B48 /* Pods-pilog-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA0FB4ADCD15483C65EDCB50C4A67F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1186025383D9A37D07E9C880702FF6D5 /* Pods-pilogTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB4524DF0DADD51D2807D14C1EBAEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2971DE40EF6337C1CB7B3A1DBE475164 /* Pods-pilog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D1938EE57C69C57C3F86FD393965A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pilog-tvOS";
+			target = 2CF9AAB2C7890E6AAF9AC51F2C972995 /* Pods-pilog-tvOS */;
+			targetProxy = B8FA132775E10054C0C506673576ADC4 /* PBXContainerItemProxy */;
+		};
+		8CDE37F659454CF0A5B7EE5FEDF90219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pilog";
+			target = C8A9D03F50EBA6E401632AE25E8962D9 /* Pods-pilog */;
+			targetProxy = F45EA4E84F31055EBF5A718B18C8ADC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		72F89C72D6C6BAD2BE0D616FAC7D0E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6A39DA3E592C4AD935A4184540C58E /* Pods-pilog.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78CCF2F8575642B0F9526268F670DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		8AC2FB20F38E0D855E32ECD31BA82CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1D70CDE01854721D582BDBBD6A8652 /* Pods-pilogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9DEF7B78C69B6210292AA792976349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2903F1F1716B09A8F2A96F0207C80D0B /* Pods-pilog-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83110CE840FCCC8AA5FFD1B9B5A43BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE999A468DCD95B07DF1B2F78B8F9F63 /* Pods-pilog.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C230E13A35D502EB8BE6861501FBF46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBE2A518CF62D4C9FF0DC4E367F126E /* Pods-pilog-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		C9211F8BA641E7D26EB0680D1EC3D92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A853B8D08850F57862AA046400720FB7 /* Pods-pilog-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E1BA4044512FFDE5075534DF14F9D2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58345F1CBF2C31FD06EB07637D1FBD0 /* Pods-pilogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F443E924C639F7EF6573EC1639F1BD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C725E9B60DDA4ED91DF62F39F4ECB78 /* Pods-pilog-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22684A7DF38B985ADF36418CD2278076 /* Build configuration list for PBXNativeTarget "Pods-pilog-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9211F8BA641E7D26EB0680D1EC3D92E /* Debug */,
+				F443E924C639F7EF6573EC1639F1BD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */,
+				78CCF2F8575642B0F9526268F670DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A583C8633FD3D2FF369B2E36D4E2CA8 /* Build configuration list for PBXNativeTarget "Pods-pilog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F89C72D6C6BAD2BE0D616FAC7D0E5E /* Debug */,
+				B83110CE840FCCC8AA5FFD1B9B5A43BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D0B59277D725FA65FE574F2D886877 /* Build configuration list for PBXNativeTarget "Pods-pilog-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C230E13A35D502EB8BE6861501FBF46C /* Debug */,
+				8B9DEF7B78C69B6210292AA792976349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83D40DD75447C0F3D1D1AB0CAF6F6F6 /* Build configuration list for PBXNativeTarget "Pods-pilogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BA4044512FFDE5075534DF14F9D2C6 /* Debug */,
+				8AC2FB20F38E0D855E32ECD31BA82CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

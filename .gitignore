@@ -60,3 +60,4 @@ buck-out/
 *.jsbundle
 
 coverage/
+AppCenter-Config.*
