@@ -43,7 +43,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
 
 # fastlane
 #
@@ -60,4 +59,3 @@ buck-out/
 *.jsbundle
 
 coverage/
-AppCenter-Config.*

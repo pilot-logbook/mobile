@@ -1,1 +1,5 @@
 *.pbxproj -text
+AppCenter-Config.plist filter=git-crypt diff=git-crypt
+appcenter-config.json filter=git-crypt diff=git-crypt
+pilog-release.keystore filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
